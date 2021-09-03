@@ -15,7 +15,7 @@ jobs:
       - name: Build with Gradle
         run: ./gradlew assembleRelease
       - name: Test
-        run: ls -la && ls / && ls app && app/build && app/build/outputs && app/build/outputs/apk && app/build/outputs/apk/release
+        run: ls -la && ls / && ls app && ls app/build && ls app/build/outputs && ls app/build/outputs/apk && ls app/build/outputs/apk/release
       - name: Upload APK
         uses: actions/upload-artifact@v2
         with:
