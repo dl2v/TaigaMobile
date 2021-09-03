@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Taiga Mobile</string>
     <string name="app_name_with_version_template" translatable="false">%s - %s</string>
-    <string name="global_taiga_host" translatable="false">api.taiga.io</string>
+    <string name="global_taiga_host" translatable="false">taiga.lmks.ru</string>
 
     <string name="yes">Yes</string>
     <string name="no">No</string>
